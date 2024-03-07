@@ -15,7 +15,7 @@ function Counter() {
     const incrementTwice = () => {
         setCount(count + 1);
         setCount(count + 1);
-        setCount(prevCount => prevCount + 1);
+        // setCount(prevCount => prevCount + 1);// This one (if uncommented) would increment it to 2
         
     };
 
